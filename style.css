@@ -1,0 +1,38 @@
+.socialIcons{
+    font-size: 2rem;
+}
+.socialIcons i:hover {
+    color: blue;
+}
+
+ body {
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+
+    .product-card {
+      text-align: center;
+      border: none;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      max-height: 260px;
+      object-fit: contain;
+    }
+
+    .product-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 15px;
+      color: #003a8f;
+    }
+
+  
+     .btn{
+        text-align: center;
+     }
